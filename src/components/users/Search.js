@@ -41,7 +41,7 @@ export class Search extends Component {
             onChange={this.onChange} />
           <input
             type='submit'
-            value='Search'
+            value='Buscar'
             className='btn btn-dark btn-block' />
         </form>
         {showClear && (
