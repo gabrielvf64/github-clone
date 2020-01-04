@@ -6,6 +6,7 @@ import User from './components/users/User';
 import Search from './components/users/Search';
 import Alert from './components/layout/Alert';
 import About from './components/pages/About';
+import NotFound from './components/pages/NotFound';
 import axios from 'axios';
 import './App.css';
 
@@ -100,6 +101,7 @@ class App extends Component {
                     loading={loading}
                   />
                 )} />
+              <Route component={NotFound} />
             </Switch>
           </div>
         </div>
